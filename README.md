@@ -15,7 +15,7 @@ Parameters:
 Example:
 
 ```bash
-curl "https://api.thanhz.id.vn/api/v0/words?length=5&count=3"
+curl "https://words.thanhz.id.vn/api/v0/words?length=5&count=3"
 ```
 
 Response:
