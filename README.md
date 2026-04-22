@@ -9,13 +9,13 @@ GET /api/v0/words?length=N&count=M
 ```
 
 Parameters:
-- `length` (required): Word length (between 3 and 8 letters)
-- `count` (optional): Number of words to return (default: 1, max: 100)
+- `length` (required): word length (between `3` and `8` letters)
+- `count` (optional): number of words to return (default: `1`, max: `100`)
 
 Example:
 
 ```bash
-curl "https://words.thanhz.id.vn/api/v0/words?length=5&count=3"
+curl https://thanhz.id.vn/api/v0/words?length=5&count=3
 ```
 
 Response:
