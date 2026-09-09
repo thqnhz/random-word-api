@@ -2,8 +2,8 @@ export default {
 	async fetch(request, env, ctx): Promise<Response> {
 		const url = new URL(request.url);
 
-		// Route: GET /api/v0/words?length=N&count=M
-		if (url.pathname !== "/api/v0/words") {
+		// Route: GET /api/v1/words?length=N&count=M
+		if (url.pathname !== "/api/v1/words") {
 			return new Response("Not Found", { status: 404 })
 		}
 
@@ -38,4 +38,3 @@ export default {
 		);
 	},
 } satisfies ExportedHandler<Env>;
-
